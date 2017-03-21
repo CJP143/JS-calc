@@ -1,0 +1,93 @@
+
+body {
+  font-size: 20px;
+  margin-top:20px;
+  background-color:   #424242;
+  font-family: Inconsolata;
+  font-weight:bolder;
+}
+
+.btn.active.focus, .btn.active:focus,
+.btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus,
+.btn:hover{
+  color: white;
+  outline-style: none;
+}
+.btn.active, .btn:active{
+  top:3px;
+}
+.btn-keyp.active, .btn-keyp:active,.btn-keyw.active, .btn-keyw:active{
+  top:-67px;
+}
+
+.btn {
+  margin: 10px;
+  width: 60px;
+  height: 50px;
+  color: white;
+  background: #424242;
+  font-size: 20pt;
+  box-shadow: 0px 4px 2px 0px black;
+  border-radius: 10px!important
+}
+
+.btn-red {
+  background: red;
+}
+
+.btn-keyp {
+  position: relative;
+  top: -70px;
+}
+
+.btn-keyw {
+  position: relative;
+  top: -70px;
+  width: 130px;
+}
+
+.btn-keyh {
+  height: 120px;
+}
+
+.calculator {
+ box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+  position: relative;
+  top: 50px;
+  height: 485px;
+  width: 308px;
+  background: linear-gradient(45deg, rgba(255,255,255,1) 0%,rgba(245,245,245,1) 12%, rgba(237,237,237,1) 69%,rgba(237,237,237,1) 70%, rgba(237,237,237,1) 100%);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.dispmain {
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  position: relative;
+  left: 15px;
+  width: 260px;
+  height: 50px;
+  color: white;
+  background-color: #78909C;
+  font-size: 32pt;
+  padding: 0px 5px 0px;
+}
+
+.dispdetail {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:10px;
+  position: relative;
+  left: 15px;
+  width: 260px;
+  height: 25px;
+  color: white;
+  background-color: #78909C;
+  padding: 0px 10px;
+}
+
+.keyboard {
+  height: 350px;
+  width: 290px;
+  background: transparent;
+}
